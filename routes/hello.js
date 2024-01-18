@@ -1,5 +1,5 @@
 const express = require("express");
-const db = require("../config/mysql")
+const db = require("../config/dbInfo");
 const router = express.Router();
 
 const conn = db.init();

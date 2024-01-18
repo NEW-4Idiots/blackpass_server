@@ -1,9 +1,9 @@
 const express = require("express");
+const helloRouter = require("./routes/hello");
 // const cors = require('cors')
 // const morgan = require('morgan')
 const app = express();
 
-const helloRouter = require("./routes/hello");
 
 app.use("/hello", helloRouter);
 // app.use(cors())
